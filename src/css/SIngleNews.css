@@ -12,9 +12,11 @@
 .sn-wrapper a {
   transition: all 1s;
   padding: 10px;
+  outline: none;
 }
 
 .sn-wrapper a:hover {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
+  outline: none;
 }

@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.right-sidebar {
+  background-color: #eef;
+  padding: 20px 10px;
+
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}

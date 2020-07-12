@@ -11,7 +11,6 @@ function SIngleNews(props) {
         const response = await Axios.get(
           `https://hacker-news.firebaseio.com/v0/item/${id}.json?print=pretty`
         );
-        console.log(response);
         setNewsData(response.data);
       } catch (error) {
         console.log(error);

@@ -11,12 +11,21 @@ function Content() {
         const response = await Axios.get(
           "https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty"
         );
-        console.log(response.data);
+
         setIds(response.data);
       } catch (error) {}
     }
 
-    getData();
+    if (ids.length == 0) {
+      getData();
+    }
+    const interVale = setInterval(() => {
+      console.log("runnin againag");
+      getData();
+    }, [7 * 24 * 60 * 100]);
+    return () => {
+      clearInterval(interVale);
+    };
   }, []);
   return (
     <div className="content-wrapper">

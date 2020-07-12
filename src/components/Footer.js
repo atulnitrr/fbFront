@@ -1,10 +1,14 @@
 import React from "react";
+import "../css/Footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
-      <h3>Footer js</h3>
-    </div>
+    <footer className="footer">
+      <p>&copy; 2020 Atul kumar</p>
+      <p>
+        Author <span>Atul</span>{" "}
+      </p>
+    </footer>
   );
 }
 

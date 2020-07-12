@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  align-items: center;
+}

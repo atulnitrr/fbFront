@@ -1,9 +1,10 @@
 import React from "react";
+import "../css/RightSidebar.css";
 
 function RightSideBar() {
   return (
-    <aside>
-      <h3>Right side bar</h3>
+    <aside className="right-sidebar">
+      <h3>Post your add here</h3>
     </aside>
   );
 }
