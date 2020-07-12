@@ -20,7 +20,7 @@ function SIngleNews(props) {
   }, [id]);
   return (
     <div className="sn-wrapper">
-      <a href={newsData.url} target="_blank">
+      <a href={newsData.url} target="_blank" rel="noopener noreferrer">
         {newsData.title}{" "}
       </a>
     </div>

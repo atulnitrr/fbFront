@@ -10,7 +10,7 @@ function Jobs() {
     async function getData() {
       try {
         const response = await Axios.get(JOB_PATH);
-        if (response.status == 200) {
+        if (response.status === 200) {
           setIds(response.data);
         }
       } catch (error) {}

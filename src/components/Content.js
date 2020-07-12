@@ -16,9 +16,7 @@ function Content() {
       } catch (error) {}
     }
 
-    if (ids.length == 0) {
-      getData();
-    }
+    getData();
     const interVale = setInterval(() => {
       console.log("runnin againag");
       getData();
