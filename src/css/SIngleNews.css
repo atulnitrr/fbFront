@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sn-wrapper {
+  padding: 5px 10px;
+  margin: 2px 3px;
+}
+
+.sn-wrapper a {
+  transition: all 1s;
+  padding: 10px;
+}
+
+.sn-wrapper a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}

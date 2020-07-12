@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+  margin: 5px 10px;
+  padding: 3px 5px;
+  border: 2px solid brown;
+}
+
+.content-wrapper > h3 {
+  font-size: 30px;
+  margin: 6px 0;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sn-wrapper a {
+  text-decoration: none;
+}
